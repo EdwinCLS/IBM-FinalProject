@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Australia",
+    "cities": [
+      {
+        "name": "Sydney, Australia",
+        "imageURL": "syndey.jpg",
+        "description": "A vibrant city know for its iconic landmarks like the Sydney Opera House"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Germany",
+    "cities": [
+      {
+        "name": "Berlin, Germany",
+        "imageURL": "berlin.jpeg",
+        "description": "Berlin is the capital of Germany and a vibrant city known for its rich history, culture, and nightlife."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tokyo, Japan",
+    "cities": [
+      {
+        "name": "Tokyo, Japan",
+        "imageURL": "tokyo.webp",
+        "description": "A bustling city that blends traditional temples with futuristic skyscrapers."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "USA",
+    "cities": [
+      {
+        "name": "New York, USA",
+        "imageURL": "newyork.jpg",
+        "description": "The city that never sleeps, famous for Times Square and Central Park."
+      }
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel recommendation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <a href="#" onclick="showContent('Home')">Home</a>
+        <a href="#" onclick="showContent('About us')">About us</a>
+        <a href="#" onclick="showContent('Contact us')">Contact us</a>
+        <input
+          id="search"
+          type="text"
+          placeholder="Enter a destination or keyword"
+        />
+        <button onclick="handleSearch()" name="search">Search</button>
+        <button id="clear" onclick="clearSearch()">Clear</button>
+      </nav>
+    </header>
+    <div id="content"></div>
+
+    <script>
+      function showContent(page) {
+        const content = document.getElementById("content");
+
+        switch (page) {
+          case "Home":
+            content.classList.add("home-page");
+            content.innerHTML = `
+              <section id="contenedor">
+                <div>
+        <h1>EXPLORE DREAM DESTINATION</h1>
+              <p>
+                In encourage exploration of unfamiliar territories, embracing diverse
+                cultures and landscapes, while pursuing the desired destination that
+                captivates the heart and ignites a sense of wonder
+              </p>
+              <button>BOOK NOW</button> 
+              </div>
+              <section id="recommendations"></section>
+              </section>
+               
+        `;
+            break;
+          case "About us":
+            content.classList.add("aboutus");
+            content.innerHTML = `
+                    <h1> ABOUT US </h1>
+                    <p> Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services, products to our customers.
+                      Our mission is to <strong> provide the best experience </strong> for people traveling to different destinations around the world.
+                      Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in <strong> putting our customers first</strong> and
+                      <strong>working together </strong> to achieve our goals.
+                      Feel free to explore our website to learn more about what we offer! </p>
+             <h1> Our Team </h1><section id="team">
+
+              <article>
+                <h2> John Doe </h2>
+                <p> John is responsible for... </p>
+                <button class="puestos"> CEO </button>
+              </article>
+               <article>
+                <h2> Celina Thomas </h2>
+                <p> Celina is responsible for... </p>
+                <button class="puestos"> Team Lead </button>
+              </article>
+               <article>
+                <h2> Mike Tyson </h2>
+                <p> Mike is responsible for... </p>
+                <button class="puestos"> Delivery Head </button>
+              </article>
+              </section>
+                    `;
+            break;
+          case "Contact us":
+            content.classList.add("contact-us");
+            content.innerHTML = `
+              <div id="form">
+                      <h1> CONTACT US </h1>
+
+                      <form id="formulario">
+                        <label> Name </label>
+                        <input type="text" name="name"/>
+                        <br>
+                        <label> Email </label>
+                        <input type="email" name="email"/>
+                        <br>
+                        <label> Message </label>
+                        <textarea name="message"></textarea>
+                        <br>
+                        <button> Submit </button>
+                      </form>
+                      </div>
+                      `;
+            break;
+          default:
+            content.innerHTML = "Page not found";
+            break;
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        showContent("Home");
+      });
+    </script>
+    <script src="capture.js"></script>
+  </body>
+</html>

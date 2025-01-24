@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "city",
+    "name": "temple",
     "cities": [
       {
         "name": "Sydney, Australia",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "city",
+    "name": "temple",
     "cities": [
       {
         "name": "Berlin, Germany",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "name": "city",
+    "name": "temple",
     "cities": [
       {
         "name": "Tokyo, Japan",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "name": "city",
+    "name": "temple",
     "cities": [
       {
         "name": "New York, USA",

@@ -40,7 +40,7 @@ function showRecommendations(data) {
 
     card.innerHTML = ` 
     
-    <h2>${destination.name}</h2>
+    <h2>${destination.cities[0].name}</h2>
       <img src="${destination.cities[0].imageURL}" alt="${destination.name}" />
       <p>${destination.cities[0].description}</p>
     `;

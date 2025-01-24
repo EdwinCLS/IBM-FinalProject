@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Australia",
+    "name": "city",
     "cities": [
       {
         "name": "Sydney, Australia",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "Germany",
+    "name": "city",
     "cities": [
       {
         "name": "Berlin, Germany",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "name": "Tokyo, Japan",
+    "name": "city",
     "cities": [
       {
         "name": "Tokyo, Japan",
@@ -34,12 +34,34 @@
   },
   {
     "id": 4,
-    "name": "USA",
+    "name": "city",
     "cities": [
       {
         "name": "New York, USA",
         "imageURL": "newyork.jpg",
         "description": "The city that never sleeps, famous for Times Square and Central Park."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "beach",
+    "cities": [
+      {
+        "name": "Copacabana, Brasil",
+        "imageURL": "copacabana.webp",
+        "description": "Copacabana has a crescent-shaped beach and is a nicknamed Princess of the sea "
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "beach",
+    "cities": [
+      {
+        "name": "Cancun, Mexico",
+        "imageURL": "cancun.jpg",
+        "description": "Located on the Yucatan Peninsula bordering the Caribbean Sea, it is known for its beaches, numerous resorts and nightlife."
       }
     ]
   }
